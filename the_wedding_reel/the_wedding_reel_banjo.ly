@@ -14,6 +14,10 @@
 
   \score {
     <<
+      \new ChordNames {
+        \set chordChanges = ##t
+        \theWeddingReelHarmony
+      }
       \new Staff {
         \clef treble
         \theWeddingReelMelody

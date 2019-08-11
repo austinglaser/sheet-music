@@ -11,10 +11,16 @@
   }
 
   \score {
-    \new Staff {
-      \clef treble
-      \theWeddingReelMelody
-    }
+    <<
+      \new ChordNames {
+        \set chordChanges = ##t
+        \theWeddingReelHarmony
+      }
+      \new Staff {
+        \clef treble
+        \theWeddingReelMelody
+      }
+    >>
     \layout {}
   }
 }
