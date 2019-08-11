@@ -23,4 +23,11 @@
     >>
     \layout {}
   }
+  \score {
+    <<
+      \unfoldRepeats \theWeddingReelMelody
+      \unfoldRepeats \theWeddingReelHarmony
+    >>
+    \midi {}
+  }
 }
