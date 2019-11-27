@@ -1,0 +1,8 @@
+[tune]
+name = "Big Liza"
+key = "A Maj"
+time = "4/4"
+type = "reel"
+
+[banjo]
+tuning = "Open-A"
