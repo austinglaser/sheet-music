@@ -2,38 +2,30 @@
 \language "english"
 
 theWeddingReelMelodyA = \relative c' {
-  \partial 4
-  d8 e
+  \partial 8
+  d16 e
   \repeat volta 2 {
-    | fs4^\markup {\box A} b8 fs a fs e fs
-    | d cs d e fs a b d
-    | e4 fs8 d e fs e d
-    | b4 e8 b d b a g
+    | fs8^\markup {\box A} b16 fs a fs e fs d16 cs d e fs a b d
+    | e8 fs16 d e fs e d b8 e16 b d b a g
 
-    | fs4 b8 fs a fs e fs
-    | d cs d e fs a b d
-    | e4 fs8 d e fs d b
+    | fs8 b16 fs a fs e fs d16 cs d e fs a b d
   }
   \alternative {
-    { | a b d e d b a g }
-    { | a b d e d4. b8 }
+    { | e8 fs16 d e fs d b a16 b d e d b a g }
+    { | e'8 fs16 d e fs d b a16 b d e d8. b16 }
   }
 }
 
 theWeddingReelMelodyB = \relative c'' {
   \repeat volta 2 {
-    | a4.^\markup {\box B} fs'8 e d e d
-    | a4. fs'8 e d e d
-    | a b d a b d a b
-    | d b a fs e4 d8 e
+    | a8.^\markup {\box B} fs'16 e d e d a8. fs'16 e d e d
+    | a16 b d a b d a b d16 b a fs e8 d16 e
 
-    | fs4 b8 fs a fs e fs
-    | d cs d e fs a b d
-    | e4 fs8 d e fs d b
+    | fs8 b16 fs a fs e fs d16 cs d e fs a b d
   }
   \alternative {
-    { | a b d e d4. b8 }
-    { | a b d e d2 }
+    { | e8 fs16 d e fs d b a16 b d e d8. b16 }
+    { | e8 fs16 d e fs d b a16 b d e d b a g }
   }
 }
 
@@ -47,23 +39,20 @@ theWeddingReelMelody = {
 
 theWeddingReelHarmonyPart = \chordmode {
   \repeat volta 2 {
-    | d1
-    | d1
-    | e1:min
-    | g1
-    | d1
-    | d1
-    | g1
+    | d2 d2
+    | e2:min g2
+    | d2 d2
+
   }
   \alternative {
-    { | a2 d2 }
-    { | a2 d2 }
+    { | g2 a4 d4 }
+    { | g2 a4 d4 }
   }
 }
 
 
 theWeddingReelHarmony = {
-  s4
+  s8
   \theWeddingReelHarmonyPart
   \theWeddingReelHarmonyPart
 }
