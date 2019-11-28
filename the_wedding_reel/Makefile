@@ -1,19 +1,19 @@
 SONG := the_wedding_reel
 OUTFILES := \
-	$(SONG)_tune.pdf \
-	$(SONG)_tune.midi \
-	$(SONG)_mandolin.pdf \
-	$(SONG)_banjo.pdf \
+	tune.pdf \
+	tune.midi \
+	mandolin.pdf \
+	banjo.pdf \
 
 all: $(OUTFILES)
 
-%.pdf %.midi: %.ly $(SONG)_notes.ily $(wildcard ../*.ily)
+%.pdf %.midi: %.ly notes.ily $(wildcard ../*.ily)
 	lilypond $<
 
-view-%: $(SONG)_%.pdf
+view-%: %.pdf
 	@mupdf $<
 
-play: $(SONG)_tune.midi
+play: tune.midi
 	wildmidi $<
 
 .PHONY: clean

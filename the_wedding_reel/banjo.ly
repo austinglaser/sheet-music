@@ -1,7 +1,7 @@
 \version "2.18.2"
 \language "english"
 
-\include "the_wedding_reel_notes.ily"
+\include "notes.ily"
 \include "../banjo.ily"
 
 \book {
