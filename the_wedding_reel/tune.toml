@@ -1,0 +1,8 @@
+[tune]
+name = "The Wedding Reel"
+key = "D Maj"
+time = "4/4"
+type = "reel"
+
+[banjo]
+tuning = "Double-D"
