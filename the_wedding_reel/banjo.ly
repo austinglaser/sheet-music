@@ -10,6 +10,7 @@
     instrument = "Banjo (Double-D Tuning)"
     composer = "Traditional"
     arranger = "The Boulder Irish Session"
+    tagline = ""
   }
 
   \score {

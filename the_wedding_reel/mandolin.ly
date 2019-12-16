@@ -9,6 +9,7 @@
     instrument = "Mandolin"
     composer = "Traditional"
     arranger = "The Boulder Irish Session"
+    tagline = ""
   }
 
   \score {

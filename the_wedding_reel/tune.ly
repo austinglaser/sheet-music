@@ -8,6 +8,7 @@
     title = "The Wedding Reel"
     composer = "Traditional"
     arranger = "The Boulder Irish Session"
+    tagline = ""
   }
 
   \score {
