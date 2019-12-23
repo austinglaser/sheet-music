@@ -15,7 +15,7 @@
     <<
       \new ChordNames {
         \set chordChanges = ##t
-        \horseAndBuggyHarmony
+        \horseAndBuggyChords
       }
       \new Staff {
         \clef treble
@@ -27,7 +27,7 @@
   \score {
     <<
       \unfoldRepeats \horseAndBuggyMelody
-      \unfoldRepeats \horseAndBuggyHarmony
+      \unfoldRepeats \horseAndBuggyChords
     >>
     \midi {}
   }

@@ -14,7 +14,7 @@
     <<
       \new ChordNames {
         \set chordChanges = ##t
-        \brokenDownGamblerHarmony
+        \brokenDownGamblerChords
       }
       \new Staff {
         \clef treble

@@ -14,7 +14,7 @@
     <<
       \new ChordNames {
         \set chordChanges = ##t
-        \theLoversWaltzHarmony
+        \theLoversWaltzChords
       }
       \new Staff {
         \clef treble
@@ -26,7 +26,7 @@
   \score {
     <<
       \unfoldRepeats \theLoversWaltzMelody
-      \unfoldRepeats \theLoversWaltzHarmony
+      \unfoldRepeats \theLoversWaltzChords
     >>
     \midi {
       \tempo 4 = 80

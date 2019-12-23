@@ -15,7 +15,7 @@
     <<
       \new ChordNames {
         \set chordChanges = ##t
-        \theWeddingReelHarmony
+        \theWeddingReelChords
       }
       \new Staff {
         \clef treble
@@ -27,7 +27,7 @@
   \score {
     <<
       \unfoldRepeats \theWeddingReelMelody
-      \unfoldRepeats \theWeddingReelHarmony
+      \unfoldRepeats \theWeddingReelChords
     >>
     \midi {}
   }

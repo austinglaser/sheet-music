@@ -29,7 +29,7 @@ brokenDownGamblerMelody = {
   \brokenDownGamblerMelodyB
 }
 
-brokenDownGamblerHarmonyA = \chordmode {
+brokenDownGamblerChordsA = \chordmode {
   \repeat volta 2 {
     | g1
     | g1
@@ -38,7 +38,7 @@ brokenDownGamblerHarmonyA = \chordmode {
   }
 }
 
-brokenDownGamblerHarmonyB = \chordmode {
+brokenDownGamblerChordsB = \chordmode {
   \repeat volta 2 {
     | g1
     | d1
@@ -47,7 +47,7 @@ brokenDownGamblerHarmonyB = \chordmode {
   }
 }
 
-brokenDownGamblerHarmony = {
-  \brokenDownGamblerHarmonyA
-  \brokenDownGamblerHarmonyB
+brokenDownGamblerChords = {
+  \brokenDownGamblerChordsA
+  \brokenDownGamblerChordsB
 }

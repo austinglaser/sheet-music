@@ -17,7 +17,7 @@
     <<
       \new ChordNames {
         \set chordChanges = ##t
-        \horseAndBuggyHarmony
+        \horseAndBuggyChords
       }
       \new Staff {
         \clef treble

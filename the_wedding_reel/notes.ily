@@ -37,7 +37,7 @@ theWeddingReelMelody = {
   \theWeddingReelMelodyB
 }
 
-theWeddingReelHarmonyPart = \chordmode {
+theWeddingReelChordsPart = \chordmode {
   \repeat volta 2 {
     | d2 d2
     | e2:min g2
@@ -51,8 +51,8 @@ theWeddingReelHarmonyPart = \chordmode {
 }
 
 
-theWeddingReelHarmony = {
+theWeddingReelChords = {
   s8
-  \theWeddingReelHarmonyPart
-  \theWeddingReelHarmonyPart
+  \theWeddingReelChordsPart
+  \theWeddingReelChordsPart
 }

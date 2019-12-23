@@ -45,7 +45,7 @@ theLoversWaltzMelody = \relative c'' {
   | d4.
 }
 
-theLoversWaltzHarmony = \chordmode {
+theLoversWaltzChords = \chordmode {
   s4.
   | d2.
   | g2.

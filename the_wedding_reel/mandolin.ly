@@ -16,7 +16,7 @@
     <<
       \new ChordNames {
         \set chordChanges = ##t
-        \theWeddingReelHarmony
+        \theWeddingReelChords
       }
       \new Staff {
         \clef treble

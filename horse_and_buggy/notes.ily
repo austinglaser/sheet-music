@@ -37,7 +37,7 @@ horseAndBuggyMelody = {
   \horseAndBuggyMelodyB
 }
 
-horseAndBuggyHarmonyA = \chordmode {
+horseAndBuggyChordsA = \chordmode {
   \repeat volta 2 {
     | a4 e4 a2
     | a2 d4 e4
@@ -49,7 +49,7 @@ horseAndBuggyHarmonyA = \chordmode {
   }
 }
 
-horseAndBuggyHarmonyB = \chordmode {
+horseAndBuggyChordsB = \chordmode {
   \repeat volta 2 {
     | d1
     | a1
@@ -61,8 +61,8 @@ horseAndBuggyHarmonyB = \chordmode {
   }
 }
 
-horseAndBuggyHarmony = {
+horseAndBuggyChords = {
   s8
-  \horseAndBuggyHarmonyA
-  \horseAndBuggyHarmonyB
+  \horseAndBuggyChordsA
+  \horseAndBuggyChordsB
 }
