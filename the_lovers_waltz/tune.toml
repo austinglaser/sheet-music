@@ -1,0 +1,8 @@
+[tune]
+name = "The Lover's Waltz"
+key = "D Maj"
+time = "3/4"
+type = "waltz"
+
+[banjo]
+tuning = "Double-D"
