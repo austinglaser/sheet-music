@@ -23,7 +23,7 @@ offToCaliforniaMelodyB = \relative c''' {
   \repeat volta 2 {
     | g8^\markup {\box B} fs e g fs e d fs
     | e8 d e fs e d b fs'
-    | g8 fs e d e d b g
+    | g8 fs g d e d b g
     | a8 b a g e4 \tuplet 3/2 {d8( e fs)}
     | g8 fs g b a g e d
     | g8 b d g e4 \tuplet 3/2 {d8( e fs)}
