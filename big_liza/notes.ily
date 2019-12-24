@@ -34,3 +34,33 @@ bigLizaMelody = {
   \bigLizaMelodyA
   \bigLizaMelodyB
 }
+
+bigLizaChordsA = \chordmode {
+  \repeat volta 2 {
+    | a1
+    | a2 d2
+    | a1
+  }
+  \alternative {
+    { | e2 d2 }
+    { | e2 d2 }
+  }
+}
+
+bigLizaChordsB = \chordmode {
+  \repeat volta 2 {
+    | a1
+    | a2 d2
+    | e1
+  }
+  \alternative {
+    { | e2 a2 }
+    { | e2 a2 }
+  }
+}
+
+bigLizaChords = {
+  s8
+  \bigLizaChordsA
+  \bigLizaChordsB
+}

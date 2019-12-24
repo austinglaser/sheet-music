@@ -12,10 +12,16 @@
   }
 
   \score {
-    \new Staff {
-      \clef treble
-      \bigLizaMelody
-    }
+    <<
+      \new ChordNames {
+        \set chordChanges = ##t
+        \bigLizaChords
+      }
+      \new Staff {
+        \clef treble
+        \bigLizaMelody
+      }
+    >>
     \layout {}
   }
   \score {
