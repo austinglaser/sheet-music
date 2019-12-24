@@ -3,7 +3,7 @@
 
 mairisWeddingMelodyA = \relative c' {
  \repeat volta 2 {
-   | d8. d16 d8 e g a b4
+   | d8.^\markup {\box A} d16 d8 e g a b4
    | a8 g e g b a b16( d8.)
    | d,8. d16 d8 e g a b4
    | a8 g e c d4 d
@@ -12,7 +12,7 @@ mairisWeddingMelodyA = \relative c' {
 
 mairisWeddingMelodyB = \relative c'' {
  \repeat volta 2 {
-   | d8. d16 d8 e d c b4
+   | d8.^\markup {\box B} d16 d8 e d c b4
    | a8 g e g b a b16( d8.)
    | d8. d16 d8 e d c b4
    | a8 g e c d4 d
