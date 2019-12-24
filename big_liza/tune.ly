@@ -7,7 +7,7 @@
   \header {
     title = "Big Liza"
     composer = "Traditional"
-    arranger = "Snotnose and the Rusty Pluckers"
+    arranger = "The Glaser-Church Clan"
     tagline = ""
   }
 

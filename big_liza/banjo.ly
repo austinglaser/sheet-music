@@ -8,7 +8,7 @@
     title = "Big Liza"
     instrument = "Banjo (Open-A Tuning)"
     composer = "Traditional"
-    arranger = "Snotnose and the Rusty Pluckers"
+    arranger = "The Glaser-Church Clan"
     tagline = ""
   }
 
