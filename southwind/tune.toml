@@ -1,0 +1,8 @@
+[tune]
+name = "Southwind"
+key = "G Maj"
+time = "3/4"
+type = "waltz"
+
+[banjo]
+tuning = "Open-G"
